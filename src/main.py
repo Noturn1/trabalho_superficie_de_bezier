@@ -79,7 +79,7 @@ def main():
     v = np.linspace(0, 1, i)
 
     control_point = generate_random_control_points(
-        grid_size=6,  # Grid de pontos de controle
+        grid_size=4,  # Grid de pontos de controle
         spacing=1.0,  # Distancia entre pontos XY no plano
         height_scale=3.5,  # Altura das "montanhas"
         smoothness=0.6,  # 0.0 = spiky, 1.0 = very smooth
